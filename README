@@ -1,0 +1,15 @@
+# Grenoble-EAT
+
+## Database architecture for Restaurant delivery service
+
+This repo is the result of a student project at Grenoble INP - Ensimag, UGA.
+
+Due to technical issue with the database support during the development, the demonstrator is not fully tested. However, you will find the complete documentation (in french) in the `rapport.pdf` file.
+
+## Use the demonstrator
+
+1. In the `demo/Loader.java` file, fill in the valid credential to access your data base.
+2. Create the datastructure using the `sql_script/create.sql` script.
+3. Populate the database using `sql_script/populate.sql` or with your own data. Make sure at least one `Client` is registered.
+4. Run `EndUI.java` using an IDE or command line.
+5. Connect as one of registerd `Client`.
